@@ -1,0 +1,6 @@
+if ($VAR$) {
+  $IF_BLOCK$
+} else {
+  $ELSE_BLOCK$
+}
+$END$

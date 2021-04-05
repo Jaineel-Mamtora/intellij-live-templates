@@ -1,0 +1,32 @@
+<templateSet group="Dart">
+    <template name="ifelse" value="if ($VAR$) {&#10; $IF_BLOCK$ &#10; } else { &#10; $ELSE_BLOCK$ &#10; } &#10; $END$ &#10;" description="Create if else statement" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_TOPLEVEL" value="true"/>
+        </context>
+    </template>
+    <template name="main" value="void main() { &#10; $END$ &#10; } &#10;" description="Create main function" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_TOPLEVEL" value="true"/>
+        </context>
+    </template>
+    <template name="mn" value="var $MIN$ = min($VAR$, $END$); &#10;" description="Sets lesser value to a variable" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="mx" value="var $MAX$ = max($VAR$, $END$); &#10;" description="Sets greater value to a variable" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="ritar" value="for(var $INDEX$ = $ARRAY$.length - 1; $INDEX$ >= 0; $INDEX$--) { &#10; $END$ &#10; } &#10;" description="Iterate elements of array in reverse order" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_STATEMENT" value="true"/>
+        </context>
+    </template>
+</templateSet>

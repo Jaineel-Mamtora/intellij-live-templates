@@ -1,0 +1,3 @@
+for(var $INDEX$ = $ARRAY$.length - 1; $INDEX$ >= 0; $INDEX$--) {
+  $END$
+}
